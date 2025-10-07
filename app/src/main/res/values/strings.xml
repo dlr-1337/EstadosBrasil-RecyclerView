@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Estados do Brasil</string>
+    <string name="descricao_bandeira">Bandeira do estado</string>
+    <string name="texto_titulo_detalhes">Dados do estado</string>
+    <string name="texto_capital">Capital: %1$s</string>
+    <string name="texto_populacao">População: %1$s</string>
+    <string name="texto_regiao">Região: %1$s</string>
+</resources>

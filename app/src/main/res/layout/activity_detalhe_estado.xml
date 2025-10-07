@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageDetalheBandeira"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/descricao_bandeira"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bandeira_padrao" />
+
+        <TextView
+            android:id="@+id/textDetalheNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Nome do Estado" />
+
+        <TextView
+            android:id="@+id/textDetalheCapital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Capital" />
+
+        <TextView
+            android:id="@+id/textDetalhePopulacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="População" />
+
+        <TextView
+            android:id="@+id/textDetalheRegiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Região" />
+
+    </LinearLayout>
+</ScrollView>
